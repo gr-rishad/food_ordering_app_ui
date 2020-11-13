@@ -11,6 +11,15 @@ class BodyScreen extends StatelessWidget {
           onChanged: (value) {},
         ),
         CategoryList(),
+        Row(
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
+            ),
+          ],
+        )
       ],
     );
   }
